@@ -26,7 +26,7 @@ jobs:
     - name: Download text file artifact
       uses: actions/download-artifact@v4.3.0
       with:
-        name: hello.txt
+        name: hello-artifact
         path: ./artifacts
 
     - name: Displays the text file content
